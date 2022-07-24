@@ -334,6 +334,14 @@ i {
 }
 
 @media all and (max-width: 540px) {
+    #hero-section {
+        height: 50vh;
+    }
+
+    header {
+        display: none;
+    }
+
     .row {
         flex-direction: column;
         margin: 30px auto;
